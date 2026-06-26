@@ -1,0 +1,37 @@
+# Common cache and build artifacts
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+
+# General caches
+.cache/
+cache/
+*.cache
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# SQLite DBs (optional)
+*.sqlite3
+
+# Ignore editor temporary files
+*.swp
+*.swo
+
+# If there are project-specific cache dirs, add them below (example):
+# /path/to/cache/

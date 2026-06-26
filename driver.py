@@ -66,7 +66,7 @@ def show_driver_lineup():
 
         driver = session.get_driver(code)
 
-        print(f"\n🏎 {driver['BroadcastName']}")
+        print(f"\n{driver['BroadcastName']}")
         print(f"Number : {driver['DriverNumber']}")
         print(f"Team   : {driver['TeamName']}")
         print(f"Color  : #{driver['TeamColor']}")
