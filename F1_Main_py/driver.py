@@ -14,7 +14,7 @@ fastf1.Cache.enable_cache('cache')
 fastf1.plotting.setup_mpl()
 
 YEAR = 2026
-GRAND_PRIX = "Austria"
+GRAND_PRIX = "F1"
 
 # ----------------------------------------
 # LOAD SESSION ONCE

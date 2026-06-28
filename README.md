@@ -20,16 +20,16 @@ Built for engineers, data scientists and fans who want to go beyond the broadcas
 
 ---
 
-## ✨ Features
+## Features
 
-- ⚡ **Fast & Lightweight** – pandas + numpy backbone, zero bloat
-- 📊 **Publication‑ready plots** – matplotlib / seaborn defaults that look great in papers or dashboards
-- 🧪 **Interactive optionality** – swap in Plotly for zoomable, hover‑rich charts
-- 📓 **Jupyter‑native** – every function works inside notebooks, with rich cell outputs
-- 🔗 **FastF1 integration** – pull live timing, car data, and lap telemetry directly from the official API
-- 🧠 **ML‑ready** – clean feature tables for scikit‑learn, XGBoost, or your own models
-- 🖥️ **Terminal‑friendly** – progress bars, coloured logs, and a CLI you can script
-- 🧩 **Modular** – use only the parts you need (loading, transforming, plotting)
+- **Fast & Lightweight** – pandas + numpy backbone, zero bloat
+- **Publication‑ready plots** – matplotlib / seaborn defaults that look great in papers or dashboards
+- **Interactive optionality** – swap in Plotly for zoomable, hover‑rich charts
+- **Jupyter‑native** – every function works inside notebooks, with rich cell outputs
+- **FastF1 integration** – pull live timing, car data, and lap telemetry directly from the official API
+- **ML‑ready** – clean feature tables for scikit‑learn, XGBoost, or your own models
+- **Terminal‑friendly** – progress bars, coloured logs, and a CLI you can script
+- **Modular** – use only the parts you need (loading, transforming, plotting)
 
 ---
 
@@ -130,11 +130,12 @@ features = engineer_lap_features(session, drivers=['VER', 'HAM'])
 ## Project Structure
 
 ```
-f1-telemetry-terminal/
+F1-terminal_X/
 ├── data/                              ← sample telemetry CSVs
-├── f1_terminal/                       ← main package
+├── F1_Main_py/                        ← main package
 │   ├── driver.py                      ← driver telimentry
 │   ├── Practic-Session.py             ← Practices Session 
+|   |── Schedule & Driver.py           ← Schedule Info and Driver Info Store
 │   └── f1.py                          ← feature engineering for ML
 ├── examples/                          ← Jupyter notebooks & scripts
 ├── requirements.txt
