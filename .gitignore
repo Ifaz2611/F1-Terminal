@@ -12,6 +12,11 @@ node_modules/
 cache/
 *.cache
 
+#f1_cache_advanced_visualizer/
+
+f1_cache/
+
+
 # Logs
 *.log
 
