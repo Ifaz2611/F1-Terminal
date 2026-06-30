@@ -15,6 +15,9 @@ cache/
 # Logs
 *.log
 
+# RoadPlan Map files
+*breakdown.md
+
 # Build outputs
 dist/
 build/
